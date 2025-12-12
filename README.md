@@ -15,7 +15,7 @@
 ---
 
 ## 🖼️ Preview
-![Preview Screenshot](https://github.com/somebodymeee/SistemPerpustakaan/blob/main/Screenshot%202025-12-11%20121506.png?raw=true)
+![Preview Screenshot](screenshot.png)
 
 ---
 
