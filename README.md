@@ -8,8 +8,8 @@
   <!-- Badges -->
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Platform-Console-333?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Made%20By-Villhaze-blueviolet?style=for-the-badge"/>
+  <!-- <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/> -->
+  <img src="https://img.shields.io/badge/Made%20By-Villhazex-blue?style=for-the-badge"/>
 </p>
 
 ---
@@ -112,7 +112,7 @@ cd SistemPerpustakaan
 cd SistemPerpustakaan -o namafilecustom
 ```
 
-### **3. Jalankan program**
+### **4. Jalankan program**
 ```md
 namafilecustom
 ```
