@@ -1,7 +1,7 @@
-<h1 align="center">📚 Villhaze Library System</h1>
+<h1 align="center">📚 PERPUST</h1>
 
 <p align="center">
-  <i>Sistem Perpustakaan berbasis C++ dengan penyimpanan file — cepat, sederhana, dan powerful.</i>
+  <i>Sistem Perpustakaan berbasis C++ dengan penyimpanan file menggunakan library <b>fstream</b></i>
 </p>
 
 <p align="center">
@@ -20,9 +20,9 @@
 ---
 
 ## 🧾 Deskripsi
-**Villhaze Library System** adalah aplikasi manajemen perpustakaan sederhana yang dibangun menggunakan **C++**.  
+**PERPUST** adalah aplikasi manajemen perpustakaan sederhana yang dibangun menggunakan **C++**.  
 Seluruh data disimpan dalam **file**, sehingga tetap aman walaupun aplikasi ditutup.  
-Cocok digunakan untuk belajar dasar-dasar C++, file handling, dan manajemen data.
+Cocok digunakan untuk belajar dasar-dasar C++
 
 ---
 
@@ -37,24 +37,24 @@ Cocok digunakan untuk belajar dasar-dasar C++, file handling, dan manajemen data
 
 ### 👥 **2. Login Multi User**
 - Mendukung banyak akun user.
-- Data user tersimpan pada `user.txt`.
+- Data user tersimpan pada `user.txt`
 
 ---
 
 ### 📝 **3. Register User Baru**
 - User dapat membuat akun sendiri.
-- Data tersimpan otomatis ke file.
+- Data tersimpan otomatis ke file `user.txt`
 
 ---
 
 ### ➕ **4. Tambah Data Buku**
 - Tambah buku baru dengan informasi lengkap.
-- Data disimpan secara *persistent*.
+- Data disimpan di dalam file `databuku.txt`.
 
 ---
 
 ### ✏️ **5. Edit Data Buku**
-- Ubah data seperti judul, penulis, tahun terbit, dan lainnya.
+- Ubah data seperti judul, penulis, tahun terbit.
 
 ---
 
@@ -65,6 +65,7 @@ Cocok digunakan untuk belajar dasar-dasar C++, file handling, dan manajemen data
 
 ### 📖 **7. Tampilkan Semua Buku**
 - Menampilkan daftar buku dalam tabel yang rapi.
+- Tampilan menggunakan library iomanip.
 
 ---
 
@@ -88,20 +89,9 @@ Menampilkan:
 - Buku dipinjam  
 - Buku tersedia  
 - Total user  
-- Dan statistik lainnya
 
 ---
 
-## 📂 Struktur Folder
-📦 SistemPerpustakaan
-├─ 📄 main.cpp
-├─ 📄 buku.txt
-├─ 📄 user.txt
-├─ 📄 pinjam.txt
-└─ 📄 README.md
-
-
----
 
 ## 🛠️ Cara Menjalankan
 
@@ -112,17 +102,17 @@ Menampilkan:
 git clone https://github.com/somebodymeee/SistemPerpustakaan.git
 ```
 
-### **2. Masuk ke Dalam File Folder**
+### **2. Masuk ke dalam file folder**
 ```md
 cd SistemPerpustakaan
 ```
 
-### **3. Compile Program**
+### **3. Compile program**
 ```md
 cd SistemPerpustakaan -o namafilecustom
 ```
 
-### **3. Jalankan Program**
+### **3. Jalankan program**
 ```md
 namafilecustom
 ```
